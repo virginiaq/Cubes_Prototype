@@ -26,7 +26,7 @@ public class SmallCube : MonoBehaviour
     {
         transform.localPosition = spawnPosition;
 
-        // This time, I've chosen to interpret the "rotate in sync" so the cubes will rotate 
+        // I've chosen to interpret the "rotate in sync" so the cubes will rotate 
         // around the parent cube's axis, while the previous time 
         // they were rotating around their own axis but with the parent cube's direction and speed
         transform.localRotation = Quaternion.identity;
